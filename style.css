@@ -153,3 +153,23 @@ footer {
         margin-bottom: 20px;
     }
 }
+.section-achievements .achievement-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.section-achievements .achievement-item:last-child {
+    border-bottom: none;
+}
+
+.section-achievements .achievement-photo {
+    flex-shrink: 0;
+}
+
+.section-achievements .achievement-photo img {
+    transition: transform 0.3s ease;
+}
+
+.section-achievements .achievement-photo img:hover {
+    transform: scale(1.05);
+}
